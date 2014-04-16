@@ -30,8 +30,13 @@ Use
 - insert 1 address
 - insert 1 restaurant to the address
 - insert 1 menu to the restaurant (menu #1) (valid from today until today + 1 month - 1 day)
+-> todate = curdate() + interval 1 month  -  interval 1 day
+
 - insert 5 foods, add foods to the inserted menu
 - insert 1 more menu to the restaurant (menu #2)  (valid from today + 1 month until today + 2 months - 1 day)
+-> fromdate = curdate()  + interval 1 month
+-> todate = curdate()  + interval 2 month  -  interval 1 day
+
 -- insert 2 foods, add all to foods in the database to the inserted menu
 
 3.2 Select
