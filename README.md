@@ -13,7 +13,7 @@ Tasks:
 2. Create tables in  database sql_training with the following data
 =====
 
-![alt tag](https://gitbud.epam.com/peter_veres2/sql-excercises/raw/master/images/database.png)
+![alt tag](https://raw.githubusercontent.com/ipuppyp/sql-excercises/master/images/database.png)
 
 
 Use
